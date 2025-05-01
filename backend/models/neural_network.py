@@ -1,7 +1,7 @@
 # network/neural_network.py
 import numpy as np
-from backend.models.layers import Dense, ActivationReLU, ActivationSoftmax
-from backend.models.losses import SoftmaxClassifier
+from models.layers import Dense, ActivationReLU, ActivationSoftmax
+from models.losses import SoftmaxClassifier
 
 class NeuralNetwork:
     def __init__(self, input_size, hidden_size, output_size):
