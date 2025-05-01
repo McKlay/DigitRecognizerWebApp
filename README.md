@@ -22,5 +22,8 @@ It includes:
 cd backend uvicorn main:app --reload
 cd frontend npm install npm start
 
+## Try it Online:
+- Deployed on Vercel: [`https://hand-digit-recognizer.vercel.app/`](https://hand-digit-recognizer.vercel.app/)
+
 ---
 
