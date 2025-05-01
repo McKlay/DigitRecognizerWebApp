@@ -1,0 +1,29 @@
+/* frontend/src/components/InfoSection.css */
+.info-wrapper {
+    padding: 30px;
+    background-color: #181818;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .info-wrapper h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #ffd95a;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .info-wrapper p, .info-wrapper li {
+    font-size: 15px;
+    color: #ddd;
+  }
+  
+  .info-wrapper ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  

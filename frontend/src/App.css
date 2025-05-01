@@ -1,0 +1,111 @@
+/* frontend/src/App.css */
+body {
+  margin: 0;
+  background-color: #111;
+  font-family: 'Segoe UI', sans-serif;
+  color: #f4f4f4;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  margin-top: 30px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+header p {
+  font-size: 16px;
+  color: #ccc;
+  margin-top: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 90%;
+  max-width: 1200px;
+  padding: 40px 20px;
+}
+
+.canvas-card {
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 14px;
+  color: #aaa;
+  text-align: center;
+  border-top: 1px solid #333;
+  width: 100%;
+}
+
+/* Header Enhancements */
+.header {
+  background-color: #111;
+  padding: 30px 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (min-width: 768px) {
+  .header-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.github-badge img {
+  height: 28px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.github-badge:hover img {
+  transform: scale(1.05);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: #aaa;
+  font-size: 13px;
+  margin-top: 40px;
+  border-top: 1px solid #333;
+}
+
+.footer strong {
+  color: #f0f0f0;
+}
+
