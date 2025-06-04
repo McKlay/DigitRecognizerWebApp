@@ -24,7 +24,6 @@ cd frontend npm install npm start
 
 ## Try it Online:
 - Deployed on Vercel: [`https://hand-digit-recognizer.vercel.app/`](https://hand-digit-recognizer.vercel.app/)
-- Deployed on HuggingFace space: [SentimentAnalysisV2-HF](https://huggingface.co/spaces/McKlay/SentimentAnalysisV2-HF)
 
 ---
 
