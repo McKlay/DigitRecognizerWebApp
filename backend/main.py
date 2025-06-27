@@ -13,13 +13,18 @@ app = FastAPI()
 # --- CORS ALLOWANCE ---
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # You can restrict this if needed
+    allow_origin_regex=r"https://.*vercel\.app",  # Allows all Vercel preview + prod URLs
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# ✅ Clean up 404 logs from Render's health checks
+# For uptime monitors (like UptimeRobot):
+@app.get("/healthz")
+def health():
+    return {"status": "ok"}
+
+# Clean up 404 logs from Render's health checks
 @app.get("/")
 async def root():
     return {"status": "Hand Digit Recognizer backend is live."}
