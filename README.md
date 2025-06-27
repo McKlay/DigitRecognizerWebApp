@@ -125,7 +125,7 @@ DigitRecognizerWebApp/
 
 ## 👨‍💻 Author
 
-Built with ❤️ by [Clay Mark Sarte](https://github.com/McKlay)
+Built with ❤️ by [Clay Mark Sarte](https://github.com/McKlay)  
 Custom AI + Modern Web + Cloud Deployment
 
 ---
