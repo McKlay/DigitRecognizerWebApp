@@ -49,7 +49,7 @@ const Canvas = () => {
       const formData = new FormData();
       formData.append('file', new File([blob], 'digit.png'));
       try {
-        const res = await axios.post('https://digitrecognizerwebapp-production.up.railway.app/predict/', formData);
+        const res = await axios.post(`${process.env.REACT_APP_API_URL}/predict/`, formData);
         setPrediction(res.data.prediction);
       } catch (err) {
         console.error(err);
