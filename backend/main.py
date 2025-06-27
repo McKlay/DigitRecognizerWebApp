@@ -19,6 +19,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# ✅ Clean up 404 logs from Render's health checks
+@app.get("/")
+async def root():
+    return {"status": "Hand Digit Recognizer backend is live."}
+
 # Load the trained model once at startup
 model = load_trained_model()
 
